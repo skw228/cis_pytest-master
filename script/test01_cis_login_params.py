@@ -3,6 +3,8 @@
 # coding=utf-8
 import unittest, logging
 
+import allure
+
 import app
 from api.login_api import LoginApi
 from utils import assert_common, read_login_data
@@ -20,6 +22,8 @@ class TestCisLoginParams:
     # 定义登录数据文件的路径
     filepath = app.GET_PATH + '/data/login_data.json'
 
+    @allure.severity(allure.severity_level.BLOCKER)
+    @allure.step("登录测试")
     @pytest.mark.parametrize("case_name, login_url, request_body, http_code, returnCode, returnMessage",
                              read_login_data(filepath))
     def test_login(self, case_name, login_url, request_body, http_code, returnCode, returnMessage):
