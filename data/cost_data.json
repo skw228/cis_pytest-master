@@ -1,0 +1,21 @@
+{
+  "add_cost": {
+    "add_url": "http://gxcr.etbc-enesys.eslink.net.cn/enesys-web/otherCostType/save",
+    "costname": "8888",
+    "success": "true"
+  },
+  "query_cost": {
+    "query_url": "http://gxcr.etbc-enesys.eslink.net.cn/enesys-web/otherCostType/list",
+    "costName": "8888",
+    "http_code": 200
+  },
+  "modify_cost": {
+    "modify_url": "http://gxcr.etbc-enesys.eslink.net.cn/enesys-web/otherCostType/save",
+    "price": "5.00",
+    "success": "true"
+  },
+  "delete_cost": {
+    "del_url": "http://gxcr.etbc-enesys.eslink.net.cn/enesys-web/otherCostType/delete/",
+    "success": "true"
+  }
+}

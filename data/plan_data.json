@@ -1,0 +1,17 @@
+{
+  "add_plan": {
+    "add_url": "http://gxcr.etbc-enesys.eslink.net.cn/enesys-web/planEstablish/savePlan",
+    "planname": "接口测试",
+    "planno": "88888",
+    "success": "true"
+  },
+  "query_plan": {
+    "query_url": "http://gxcr.etbc-enesys.eslink.net.cn/enesys-web/planManagement/queryPlanList",
+    "planno": "11111",
+    "http_code": 200
+  },
+  "delete_plan": {
+    "del_url": "http://gxcr.etbc-enesys.eslink.net.cn/enesys-web/planManagement/delPlan?mrPlanId=",
+    "success": "true"
+  }
+}

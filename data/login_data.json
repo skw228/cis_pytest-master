@@ -1,0 +1,35 @@
+[
+  {
+    "case_name": "登录成功",
+    "login_url": "http://etbc.hw-qa.eslink.net.cn/user/login",
+    "request_body": {
+      "loginName": "p0H3JjVedTYfNEK2CK79A5OcDXTgffibY+dWndUCLYlaM6u+4AAZwOA+Xw8TT4MgRjLqzCC/1Uzz4TV5XtvhedsYw8ysH2qczoB/M3xmNm0RL7DLhFw2JV5rsR8EpZumwRzA7Y3IL7WbI3ddexmlu6537DVi0rNnzNZWxDXFjVD6HJsZtAhW4aTnTUsyTJX80YM/NtwcbC2F5KWPWN2NJ2Kugprs6+EO4kX40NdCEaTkzoC793/Wf286ALI3TIfeb6CmxeUwVM8RtHrMq1eOfMzheqf4TU7VHZgsniepuLVXIfoD6A0vav8MAc7vsCXRR5c28LN8Tr3bMXIg7FtPvw==",
+      "loginPwd": "kYLiSAL51EC6nLc2rgvrE5OzTFIr4JIai78QVXKJTynfnHdKlvsGToQlbEHGC99JLGMpHw81cATi+AJ/okcZ+qQuZBa4FCNwGW6GeF8XvpRghSL7Qk8xCHn5GFhcMVp9hEmY64NW5yVXeVOEXUr9icDuRZ+uytIwF4DHZ/jsj6XxVEwggpgws1AeC5pdVIzTjB/oKsxT7rerDwkaaEz3JoySscCXxpTdJ9q2lhd052w9cNpd8+TSM8T4lyQjZgRtZSSzfJJlQFIH8mBlEmNt2dh6L/wQmXn2WlNhKU+xS0+Z6m1+/wOA+cK3w4ISdhtApKTnVf1rDRwnQV3WQzj4OA=="
+    },
+    "http_code": 200,
+    "returnCode": "100000",
+    "returnMessage": "运行正确"
+  },
+  {
+    "case_name": "用户名不存在",
+    "login_url": "http://etbc.hw-qa.eslink.net.cn/user/login",
+    "request_body": {
+      "loginName": "dxDf3VIbVs/JfJ+YS37J3CCJurmStNXjf6s1EcLx0IZ/GVlCTDQBWL35NbG6qVXkCOD1HpEnyJb4lqxypjBXVAch8G2u8uRPqe6l6IxTYt712HMUpabCs5RaNE2gDgJRVHv1pzfR0ilX+CbOixum6cEvhjPFGQ7QQlVcVDg7jCxY9D2pYyBxpVqIp721xpOMZQ/Dx74cTpdQ3yz4opngfgSuhdb76bQ5wiOG3zuwVtbMI5v9tc+n+Klc/NhGxzwz4IhJvoVWy45vo7x341h1N31m/7H+JrAqfw76RToCCdTcbMZR843A3KruQQG4Z7Kr5n3PZR9uC069V/ECzylkng==",
+      "loginPwd": "ptUcjhHXrROARMnu5Kh/ek5AqbcA0t1kZP0eNW3OZba0pNn9b4DazZuWzeSBrtfkcyXKj0tE0c9YA/C3ECmCiA6Z0ExFTP4sXix1ErVpWZ0aU6fckLZW3bEu1r2igUGhm5nairebZo0ve8tvTxniGW6xx2P14X3Gm2wgyFXM13oO61g/MzC+fLyMCUeNWAYyuhR8ZxOR4vlDkXTYTy0SEI3zyUXuhQfah3ijBwQfTybyvLj8NB8w8j3Ajl3CNtNi1h4//2YSo+4d1SPeNm389r2XO8QYTiEaftYFDed5QssJxwBti2qxPk0afzIwHbIbaK0e2cQYcqZk5oy+yWgT2g=="
+    },
+    "http_code": 200,
+    "returnCode": "999999",
+    "returnMessage": "您输入的帐号或者密码不正确，请重新输入。"
+  },
+  {
+    "case_name": "密码错误",
+    "login_url": "http://etbc.hw-qa.eslink.net.cn/user/login",
+    "request_body": {
+      "loginName": "cr34ePNT5JbiaWuIXx6QTKNeWuyqF4QnVolg7Dm/0acOrH2pp2Pswwd+AcLgOwZ0uSj4JEfbroZDCC9PG7Xt26TA50PvWjg0C+kOm7Cdl4oBZkfxJdXHpVwurMapEHUvlhVHqVo3pi0l8epdjwkFIGY2totKUC/pjtttlMtdAOEb+/46ZNhtbRkAtZTP5lrruReyhdBBsSNMIGk0N3ll7pDI/CayeS+XGn58cSnUKpFlRip/DzH713BQVmdXl532T5xQTv9+6DTeSpq8yAw3wxttkiH4pFoIk5cTB9OSsTAlt8mq79XwyajZZD+Pp0F5DIC+nw2qo3Ubcw+GzOs0Hg==",
+      "loginPwd": "K3x4aZkd8sXPQucE5iYa72WQZ5IPLIFLIoY+mfNJGP9jA3rn0vUhrj1safsVuFSk6FLZkVWYShB+/IkHL94RSS7wyqor5qp/jIAg3wOPgflO3UriYtn1+qAiowhjBIpCQxFIggiiEcRIiAc3Zp6kAQhU0wukn2KfFZCYrPNhRXiAY2KfsBR2VV4An/Qtj4LKp+SJPIc9aY8vjc1Wt9BwwpW9VkgWoYpK3B/f8HPYYd3D37NyTtT4CuSe72Xa+A5baJDIpsUDTGV32GcXnsYWtv1DDN7y7FRIwLmaH/EBUeARK1/bNIICwc9FuGiFuuUeZQkyj04O1IdSwgsvnpkr9g=="
+    },
+    "http_code": 200,
+    "returnCode": "999999",
+    "returnMessage": "您输入的帐号或者密码不正确，请重新输入。"
+  }
+]
